@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "apideck-error-demo"
+version = "0.1.0"
+description = ""
+authors = ["Felipe Carvalho <felipe@autonifai.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+apideck = "^1.2.0"
+urllib3 = "^2.2.1"
+python-dateutil = "^2.9.0.post0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
